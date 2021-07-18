@@ -1,0 +1,185 @@
+{
+  "name": "warnings",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "TUmIe",
+  "actions": [
+    {
+      "info": "0",
+      "infoIndex": "1",
+      "storage": "1",
+      "varName": "@mention",
+      "name": "Store Command Params"
+    },
+    {
+      "storage": "1",
+      "varName": "@mention",
+      "comparison": "10",
+      "value": "<@",
+      "iftrue": "2",
+      "iftrueVal": "12",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "dataName": "warnings.auto",
+      "defaultVal": "0",
+      "storage": "1",
+      "varName2": "links",
+      "name": "Store Member Data"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "dataName": "warnings.moderator",
+      "defaultVal": "0",
+      "storage": "1",
+      "varName2": "moderator",
+      "name": "Store Member Data"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "info": "2",
+      "storage": "1",
+      "varName2": "tag",
+      "name": "Store Member Info"
+    },
+    {
+      "title": "",
+      "author": "${tempVars(\"tag\")}'s Warnings",
+      "color": "BLUE",
+      "url": "",
+      "authorIcon": "https://cdn.discordapp.com/attachments/865655632183296040/865655668442267648/Thunderbotslogsmod.jpg",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "true",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "embed",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "fieldName": "Moderator Warnings",
+      "message": "${tempVars(\"moderator\")} warnings",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "fieldName": "Automod Warnings",
+      "message": "${tempVars(\"links\")} warnings",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "member": "0",
+      "varName": "@mention",
+      "dataName": "warnings.auto",
+      "defaultVal": "0",
+      "storage": "1",
+      "varName2": "links",
+      "name": "Store Member Data"
+    },
+    {
+      "member": "0",
+      "varName": "@mention",
+      "dataName": "warnings.moderator",
+      "defaultVal": "0",
+      "storage": "1",
+      "varName2": "moderator",
+      "name": "Store Member Data"
+    },
+    {
+      "member": "0",
+      "varName": "@mention",
+      "info": "2",
+      "storage": "1",
+      "varName2": "tag2",
+      "name": "Store Member Info"
+    },
+    {
+      "title": "",
+      "author": "${tempVars(\"tag2\")}'s Warnings",
+      "color": "BLUE",
+      "url": "",
+      "authorIcon": "https://cdn.discordapp.com/attachments/865655632183296040/865655668442267648/Thunderbotslogsmod.jpg",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "true",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "embed",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "fieldName": "Moderator Warnings",
+      "message": "${tempVars(\"moderator\")} warnings",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "fieldName": "Automod Warnings",
+      "message": "${tempVars(\"links\")} warnings",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    }
+  ],
+  "comType": "0"
+}
