@@ -1,0 +1,100 @@
+{
+  "name": "MemeberLeave",
+  "temp": "mem",
+  "event-type": "7",
+  "_id": "tZPXE",
+  "actions": [
+    {
+      "info": "0",
+      "find": "864995624578449438",
+      "storage": "1",
+      "varName": "channel",
+      "name": "Find Channel"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "info": "21",
+      "storage": "1",
+      "varName2": "tag",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "info": "16",
+      "storage": "1",
+      "varName2": "avatar",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "info": "1",
+      "storage": "1",
+      "varName2": "id",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "2",
+      "varName": "mem",
+      "info": "23",
+      "storage": "1",
+      "varName2": "ctimestamp",
+      "name": "Store Member Info"
+    },
+    {
+      "time": "${tempVars(\"ctimestamp\")}",
+      "storage": "1",
+      "varName": "cdate",
+      "name": "Convert Timestamp to Date"
+    },
+    {
+      "title": "Member Left",
+      "author": "",
+      "color": "RED",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "${tempVars(\"avatar\")}",
+      "timestamp": "true",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "2",
+      "varName": "embed",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "message": "👋 ${tempVars(\"mem\")} left the server!",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "message": "ID: ${tempVars(\"id\")}",
+      "footerIcon": "",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "channel": "5",
+      "varName2": "channel",
+      "storage3": "0",
+      "varName3": "",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    }
+  ]
+}
