@@ -1,1 +1,1 @@
-{"token":"DISCORD BOT TOKEN","client":"864999930019708968","tag":"!","case":"false","separator":"\\s+","modules":{"discord.js":["",true],"fstorm":["",true],"jimp":["",true]},"ownerId":"510342254309933056"}
+{"token":"DISCORD BOT TOKEN","client":"DISCORD BOT ID","tag":"!","case":"false","separator":"\\s+","modules":{"discord.js":["",true],"fstorm":["",true],"jimp":["",true]},"ownerId":"510342254309933056"}
