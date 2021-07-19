@@ -20,10 +20,11 @@ This bot is built with dbm, because the owner is still learing JS and Python.
 - [Discord]() - NOT OPEN
 
 # Special Features
-- Reaction Roles.
+### Reaction Roles.
 - This system allows a user to react to the message that gives a role.
 ### ![image](https://user-images.githubusercontent.com/61249452/126123603-b43a473a-7809-448a-ab68-b74003ece416.png)
 
-- Automod
+### Automod
+- Stops people from breaking rules.
 ### ![image](https://user-images.githubusercontent.com/61249452/126123679-02525c2c-3d37-487a-87d3-0b23b86de30e.png)
 
