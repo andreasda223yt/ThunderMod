@@ -15,10 +15,9 @@ This bot is built with dbm, because the owner is still learing JS and Python.
 - Yes, as long as it takes for the owner to lean JS and Python.
 - It will be updated once a month of more often.
 
-# Thunder Bot List
+# ![image](https://user-images.githubusercontent.com/61249452/126150632-544356b1-32a2-42c7-b63d-1f680e942186.png)
 - [Website]() - NOT OPEN
 - [Discord]() - NOT OPEN
-### ![image](https://user-images.githubusercontent.com/61249452/126150632-544356b1-32a2-42c7-b63d-1f680e942186.png)
 
 
 # Special Features
