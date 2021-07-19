@@ -37,8 +37,8 @@ This bot is built with dbm, because the owner is still learing JS and Python.
 
 | Working on      | Status         | 
 |-----------------|----------------|
-| Reaction System | Almost Done |  | 
-| Automod         | Almost Done |  | 
-| Help Moduel     | Not Started |  | 
-| Music System    | Almost Done |  | 
+| Reaction System | Almost done |  | 
+| Automod         | Started on  |  | 
+| Help Moduel     | Not started |  | 
+| Music System    | Started on  |  | 
 
