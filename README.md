@@ -20,7 +20,7 @@ This bot is built with dbm, because the owner is still learing JS and Python.
 - [Website]() - NOT OPEN
 - [Discord]() - NOT OPEN
 
-
+#
 # Special Features
 
 - Special Feature that is done will be shown here.
