@@ -27,4 +27,13 @@ This bot is built with dbm, because the owner is still learing JS and Python.
 
 
 ## To Do
+- [ ] Reaction System
+- [ ] Moderation Commands
+- [ ] Event Logs
+- [x] Automod
+- [ ] FAQ commands
+- [ ] Announcement Commands
+- [ ] Help Module
+- [ ] Music System ( Staff Only )
+- Other To Do stuff may come in the feature.
 
