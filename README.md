@@ -21,19 +21,24 @@ This bot is built with dbm, because the owner is still learing JS and Python.
 
 # Special Features
 
-### Automod
-- Stops people from breaking rules.
-### ![image](https://user-images.githubusercontent.com/61249452/126123679-02525c2c-3d37-487a-87d3-0b23b86de30e.png)
+- Special Feature that is done will be shown here.
 
 
 ## To Do
 - [ ] Reaction System
 - [ ] Moderation Commands
 - [ ] Event Logs
-- [x] Automod
+- [ ] Automod
 - [ ] FAQ commands
 - [ ] Announcement Commands
 - [ ] Help Module
 - [ ] Music System ( Staff Only )
 - Other To Do stuff may come in the feature.
+
+| Working on      | Status         | 
+|-----------------|----------------|
+| Reaction System | Almost Done |  | 
+| Automod         | Almost Done |  | 
+| Help Moduel     | Not Started |  | 
+| Music System    | Half Done   |  | 
 
