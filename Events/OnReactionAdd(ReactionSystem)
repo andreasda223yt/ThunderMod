@@ -24,6 +24,14 @@
       "name": "Store Reaction Info"
     },
     {
+      "reaction": "1",
+      "varName": "reactionadd",
+      "info": "3",
+      "storage": "1",
+      "varName2": "emojiname",
+      "name": "Store Reaction Info"
+    },
+    {
       "message": "1",
       "varName": "message",
       "info": "1",
@@ -44,7 +52,7 @@
     },
     {
       "tosend": "Reaction Added by ${tempVars(\"mem\")}, but coulden't give a role, \"Wasn't Right Message\"",
-      "color": "#00ffff",
+      "color": "#ff0000",
       "name": "Send Message to Console"
     },
     {
@@ -54,20 +62,12 @@
       "name": "End Action Sequence"
     },
     {
-      "reaction": "1",
-      "varName": "reactionadd",
-      "info": "3",
-      "storage": "1",
-      "varName2": "emojiname",
-      "name": "Store Reaction Info"
-    },
-    {
       "storage": "1",
       "varName": "emojiname",
       "comparison": "1",
-      "value": "':bell:'",
+      "value": "🔔",
       "iftrue": "2",
-      "iftrueVal": "",
+      "iftrueVal": "15",
       "iffalse": "0",
       "iffalseVal": "",
       "name": "Check Variable"
@@ -76,9 +76,9 @@
       "storage": "1",
       "varName": "emojiname",
       "comparison": "1",
-      "value": ":mega:",
+      "value": "📣",
       "iftrue": "2",
-      "iftrueVal": "",
+      "iftrueVal": "15",
       "iffalse": "0",
       "iffalseVal": "",
       "name": "Check Variable"
@@ -87,16 +87,16 @@
       "storage": "1",
       "varName": "emojiname",
       "comparison": "1",
-      "value": ":loudspeaker:",
+      "value": "📢",
       "iftrue": "2",
-      "iftrueVal": "",
+      "iftrueVal": "15",
       "iffalse": "0",
       "iffalseVal": "",
       "name": "Check Variable"
     },
     {
       "tosend": "FAILED \"Coulden't Find Right Emoji\"",
-      "color": "#00ffff",
+      "color": "#ff0000",
       "name": "Send Message to Console"
     },
     {
@@ -104,6 +104,21 @@
     },
     {
       "name": "End Action Sequence"
+    },
+    {
+      "tosend": "Found Right Reaction",
+      "color": "#00ff80",
+      "name": "Send Message to Console"
+    },
+    {
+      "tosend": "Found Right Reaction",
+      "color": "#00ff80",
+      "name": "Send Message to Console"
+    },
+    {
+      "tosend": "Found Right Reaction",
+      "color": "#00ff80",
+      "name": "Send Message to Console"
     }
   ],
   "temp2": "mem"
