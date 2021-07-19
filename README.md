@@ -25,8 +25,9 @@ This bot is built with dbm, because the owner is still learing JS and Python.
 
 - Special Feature that is done will be shown here.
 
+#
+### To Do
 ```
-## To Do
 - [ ] Reaction System
 - [ ] Moderation Commands
 - [ ] Event Logs
