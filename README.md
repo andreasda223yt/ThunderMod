@@ -21,7 +21,7 @@ This bot is built with dbm, because the owner is still learing JS and Python.
 - [Discord]() - NOT OPEN
 
 #
-# Special Features
+### Special Features
 
 - Special Feature that is done will be shown here.
 
