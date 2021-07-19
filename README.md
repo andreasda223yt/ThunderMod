@@ -40,5 +40,5 @@ This bot is built with dbm, because the owner is still learing JS and Python.
 | Reaction System | Almost Done |  | 
 | Automod         | Almost Done |  | 
 | Help Moduel     | Not Started |  | 
-| Music System    | Half Done   |  | 
+| Music System    | Almost Done |  | 
 
