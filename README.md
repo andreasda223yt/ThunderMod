@@ -18,6 +18,8 @@ This bot is built with dbm, because the owner is still learing JS and Python.
 # Thunder Bot List
 - [Website]() - NOT OPEN
 - [Discord]() - NOT OPEN
+### ![image](https://user-images.githubusercontent.com/61249452/126150632-544356b1-32a2-42c7-b63d-1f680e942186.png)
+
 
 # Special Features
 
