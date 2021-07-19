@@ -25,7 +25,7 @@ This bot is built with dbm, because the owner is still learing JS and Python.
 
 - Special Feature that is done will be shown here.
 
-
+```
 ## To Do
 - [ ] Reaction System
 - [ ] Moderation Commands
@@ -36,11 +36,5 @@ This bot is built with dbm, because the owner is still learing JS and Python.
 - [ ] Help Module
 - [ ] Music System ( Staff Only )
 - Other To Do stuff may come in the feature.
-
-| Working on      | Status         | 
-|-----------------|----------------|
-| Reaction System | Almost done |  | 
-| Automod         | Started on  |  | 
-| Help Moduel     | Not started |  | 
-| Music System    | Started on  |  | 
+```
 
