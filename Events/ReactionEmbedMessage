@@ -1,0 +1,148 @@
+{
+  "name": "ReactionEmbedMessage",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "XiquM",
+  "actions": [
+    {
+      "info": "0",
+      "find": "866361776090120202",
+      "storage": "1",
+      "varName": "channel",
+      "name": "Find Channel"
+    },
+    {
+      "channel": "3",
+      "varName": "channel",
+      "count": "1",
+      "type": "1",
+      "option": "0",
+      "msgid": "",
+      "Con0": "",
+      "Con1": "864999930019708968",
+      "Con2": "0",
+      "Con3": "",
+      "Con4": "",
+      "Con5": "0",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Delete Bulk Messages MOD"
+    },
+    {
+      "info": "0",
+      "find": "866361878958571540",
+      "storage": "1",
+      "varName": "site_role",
+      "name": "Find Role"
+    },
+    {
+      "info": "0",
+      "find": "866361858163343431",
+      "storage": "1",
+      "varName": "discord_role",
+      "name": "Find Role"
+    },
+    {
+      "info": "0",
+      "find": "866361823742001153",
+      "storage": "1",
+      "varName": "thunder_role",
+      "name": "Find Role"
+    },
+    {
+      "title": "Notification Roles",
+      "author": "",
+      "color": "BLUE",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "https://cdn.discordapp.com/attachments/865655632183296040/865655666592579614/Thunderbotslogs.jpg",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "embed",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "message": "Pleace react to recive roles from the bot.\n",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "fieldName": "Roles",
+      "message": "${tempVars(\"thunder_role\")} ━> 🔔\n\n${tempVars(\"discord_role\")} ━> 📣\n\n${tempVars(\"site_role\")} ━> 📢",
+      "inline": "1",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "message": "Thunder Bot List\n",
+      "footerIcon": "https://cdn.discordapp.com/attachments/865655632183296040/865655666592579614/Thunderbotslogs.jpg",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "embed",
+      "channel": "5",
+      "varName2": "channel",
+      "storage3": "1",
+      "varName3": "embed2",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "messageContent": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "message": "1",
+      "varName": "embed2",
+      "info": "1",
+      "storage": "2",
+      "varName2": "reaction_embed_id",
+      "name": "Store Message Info"
+    },
+    {
+      "storage": "2",
+      "varName": "reaction_embed_id",
+      "name": "Save Variable"
+    },
+    {
+      "storage": "1",
+      "varName": "embed2",
+      "emoji": "4",
+      "varName2": "🔔",
+      "varName3": "emoji1",
+      "name": "Add Reaction"
+    },
+    {
+      "storage": "1",
+      "varName": "embed2",
+      "emoji": "4",
+      "varName2": "📣",
+      "varName3": "emoji_2",
+      "name": "Add Reaction"
+    },
+    {
+      "storage": "1",
+      "varName": "embed2",
+      "emoji": "4",
+      "varName2": "📢",
+      "varName3": "emoji_3",
+      "name": "Add Reaction"
+    }
+  ],
+  "event-type": "0"
+}
